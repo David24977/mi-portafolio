@@ -83,6 +83,29 @@ export default function Proyectos() {
             </a>
           </div>
 
+          {/* Facturación de Productos */}
+          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
+            <div>
+              <h3 className="text-xl font-semibold text-sky-700 mb-2">
+                Facturación de Productos
+              </h3>
+              <p className="text-slate-700 text-sm leading-relaxed">
+                API REST para gestión de clientes, productos y facturas, con
+                cálculo de IVA y búsquedas por fechas. <br />
+                <span className="font-medium">Stack:</span> Spring Boot · JPA ·
+                MySQL · DTOs
+              </p>
+            </div>
+            <a
+              href="https://github.com/David24977/facturacion-producto"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block bg-sky-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-700 transition"
+            >
+              Ver en GitHub
+            </a>
+          </div>
+
           {/* Web FerMar */}
           <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
             <div>
