@@ -40,6 +40,115 @@ export default function Proyectos() {
             </a>
           </div>
 
+          {/* Backend Noticias */}
+          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
+            <div>
+              <h3 className="text-xl font-semibold text-sky-700 mb-2">
+                Backend API – Noticias
+              </h3>
+              <p className="text-slate-700 text-sm leading-relaxed">
+                API REST desarrollada para la gestión completa de noticias.
+                Incluye CRUD, persistencia en base de datos y endpoints
+                protegidos para administración. <br />
+                <span className="font-medium">Stack:</span> Java · Spring Boot ·
+                Spring Data JPA · MySQL · DTOs
+              </p>
+            </div>
+            <a
+              href="https://github.com/David24977/DigitalNews"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block bg-sky-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-700 transition"
+            >
+              Ver backend en GitHub
+            </a>
+          </div>
+
+          {/* Web Noticias */}
+          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
+            <div>
+              <h3 className="text-xl font-semibold text-sky-700 mb-2">
+                Web de Noticias + Panel Admin
+              </h3>
+              <p className="text-slate-700 text-sm leading-relaxed">
+                Aplicación web para la visualización pública de noticias y
+                administración de contenido mediante un panel privado accesible
+                desde{" "}
+                <code className="text-xs bg-slate-100 px-1 rounded">
+                  /admin
+                </code>
+                . <br />
+                <span className="font-medium">Stack:</span> React · Vite ·
+                Tailwind · API REST
+              </p>
+            </div>
+            <div className="mt-6 flex gap-3">
+              <a
+                href="https://davidferrer.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-sky-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-700 transition"
+              >
+                Ver web
+              </a>
+              <a
+                href="https://github.com/David24977/cullera-digital-frontend"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border border-sky-600 text-sky-700 text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-50 transition"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          {/* Plataforma Noticias Digitales */}
+          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
+            <div>
+              <h3 className="text-xl font-semibold text-sky-700 mb-2">
+                Plataforma Noticias Digitales (Full Stack)
+              </h3>
+              <p className="text-slate-700 text-sm leading-relaxed">
+                Proyecto full stack que integra una API REST desarrollada en
+                Spring Boot con una aplicación web en React para la
+                visualización de noticias y gestión de contenido mediante un
+                panel de administración. <br />
+                <span className="font-medium">Despliegue:</span> Backend en
+                Render (plan free) y frontend en Vercel. El primer acceso puede
+                tardar 1–2 minutos debido al arranque en frío del servidor.
+              </p>
+            </div>
+
+            <div className="mt-6 flex gap-3 flex-wrap">
+              <a
+                href="https://cullera-digital.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-emerald-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-emerald-700 transition"
+              >
+                Ver demo completa
+              </a>
+
+              <a
+                href="https://github.com/David24977/cullera-digital-backend"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border border-sky-600 text-sky-700 text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-50 transition"
+              >
+                Backend GitHub
+              </a>
+
+              <a
+                href="https://github.com/David24977/cullera-digital-frontend"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border border-sky-600 text-sky-700 text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-50 transition"
+              >
+                Frontend GitHub
+              </a>
+            </div>
+          </div>
+
           {/* FallaApp */}
           <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
             <div>
