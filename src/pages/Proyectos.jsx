@@ -149,6 +149,27 @@ export default function Proyectos() {
             </div>
           </div>
 
+           {/* FastApi Product */}
+          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
+            <div>
+              <h3 className="text-xl font-semibold text-sky-700 mb-2">
+                FastApi Product Microservice with AI Analysis
+              </h3>
+              <p className="text-slate-700 text-sm leading-relaxed">
+                Backend project developed to demonstrate modern Python backend development with AI integration. <br />
+                <span className="font-medium">Stack:</span> FastApi, PostgreSQL, SQLAlchemy, Pydantic, httpx, Groq LLM API
+              </p>
+            </div>
+            <a
+              href={"https://github.com/David24977/Product_FastApi"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block bg-sky-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-700 transition"
+            >
+              Ver en GitHub
+            </a>
+          </div>
+
           {/* FallaApp */}
           <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
             <div>
