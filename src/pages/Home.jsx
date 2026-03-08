@@ -19,7 +19,7 @@ export default function Home() {
           Desarrollador de software especializado en{" "}
           <span className="font-semibold">Java</span>
           <span className="font-semibold">
-            , Spring Boot y React con JavaScript
+            , Spring Boot, FastApi y React con JavaScript
           </span>
         </h2>
 

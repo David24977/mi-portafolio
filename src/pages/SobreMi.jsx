@@ -16,7 +16,7 @@ export default function SobreMi() {
         <p className="text-lg leading-relaxed mb-6 dark:text-sky-200">
           Soy <span className="font-semibold">David Ferrer Sapiña</span>,
           desarrollador de aplicaciones multiplataforma con una base sólida en
-          <span className="font-semibold"> Java y Spring Boot</span>. Me
+          <span className="font-semibold"> Java con Spring Boot y Python con FastApi</span>. Me
           apasiona diseñar soluciones estructuradas, seguras y fáciles de
           mantener, aplicando buenas prácticas y arquitectura limpia tanto en
           backend como en frontend.
@@ -35,8 +35,7 @@ export default function SobreMi() {
         </p>
 
         <p className="text-lg leading-relaxed mb-6 dark:text-sky-200">
-          Aunque todavía no he trabajado en una empresa de desarrollo, he
-          adquirido experiencia práctica creando{" "}
+          He adquirido experiencia práctica creando{" "}
           <span className="font-semibold">
             {" "}
             proyectos reales de forma independiente
@@ -48,8 +47,8 @@ export default function SobreMi() {
           </span>
           . He desarrollado aplicaciones completas para uso personal y para
           terceros, gestionando tanto el backend con{" "}
-          <span className="font-semibold">Spring Boot</span> y
-          <span className="font-semibold"> MySQL</span> como el frontend con
+          <span className="font-semibold">Spring Boot y FastApi</span> con
+          <span className="font-semibold"> MySQL y Postgres,</span> como el frontend con
           <span className="font-semibold"> React</span>. Estas experiencias me
           han permitido comprender el ciclo completo de un proyecto, desde el
           diseño de la base de datos hasta la interfaz de usuario.
