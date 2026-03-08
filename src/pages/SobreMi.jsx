@@ -43,12 +43,12 @@ export default function SobreMi() {
           antes y durante mis estudios de
           <span className="font-semibold">
             {" "}
-            Desarrollo de Aplicaciones Multiplataforma (DAM)
+            Desarrollo de Aplicaciones Multiplataforma (DAM) y ahora como freelance
           </span>
           . He desarrollado aplicaciones completas para uso personal y para
           terceros, gestionando tanto el backend con{" "}
           <span className="font-semibold">Spring Boot y FastApi</span> con
-          <span className="font-semibold"> MySQL y Postgres,</span> como el frontend con
+          <span className="font-semibold"> MySQL y PostgreSQL,</span> como el frontend con
           <span className="font-semibold"> React</span>. Estas experiencias me
           han permitido comprender el ciclo completo de un proyecto, desde el
           diseño de la base de datos hasta la interfaz de usuario.
@@ -58,7 +58,7 @@ export default function SobreMi() {
           A lo largo de mis proyectos he trabajado con
           <span className="font-semibold">
             {" "}
-            bases de datos MySQL, PostgreSQL y SQLite
+            bases de datos MySQL, PostgreSQL, SQLite, TiDB y Mongo DB
           </span>
           , además de integrar servicios como{" "}
           <span className="font-semibold"> Firebase</span>
