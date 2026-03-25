@@ -31,9 +31,9 @@ export default function Home() {
           backend para construir aplicaciones más inteligentes y útiles.
         </p>
 
-        <p className="mt-8 text-xl font-semibold text-yellow-400 drop-shadow-md">
-          Bienvenido a mi portfolio
-        </p>
+        <h3 className="mt-8 text-xl font-semibold text-red-400 drop-shadow-md">
+          Bienvenido a mi WEB
+        </h3>
       </div>
     </motion.div>
   );
