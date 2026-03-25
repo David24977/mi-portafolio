@@ -10,8 +10,7 @@ export default function Home() {
     >
       <div className="max-w-3xl">
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-white drop-shadow-md dark:text-sky-100">
-          Hola, soy{" "}
-          <span className="text-yellow-400">David Ferrer Sapiña</span>
+          Hola, soy <span className="text-yellow-400">David Ferrer Sapiña</span>
         </h1>
 
         <h2 className="mt-4 text-lg sm:text-xl text-sky-50 font-medium dark:text-sky-200">
@@ -31,23 +30,6 @@ export default function Home() {
           Actualmente trabajo integrando modelos de inteligencia artificial en
           backend para construir aplicaciones más inteligentes y útiles.
         </p>
-
-        {/* BOTONES CLAVE */}
-        <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <a
-            href="https://davidferrer.vercel.app/proyectos"
-            className="bg-yellow-400 text-slate-900 font-semibold px-6 py-3 rounded-lg hover:bg-yellow-300 transition"
-          >
-            Ver proyectos
-          </a>
-
-          <a
-            href="mailto:davidferrersapinya@gmail.com"
-            className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:text-slate-900 transition"
-          >
-            Contactar
-          </a>
-        </div>
 
         <p className="mt-8 text-xl font-semibold text-yellow-400 drop-shadow-md">
           Bienvenido a mi portfolio
