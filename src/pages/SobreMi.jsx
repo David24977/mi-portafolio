@@ -14,66 +14,35 @@ export default function SobreMi() {
         </h2>
 
         <p className="text-lg leading-relaxed mb-6 dark:text-sky-200">
-          Soy <span className="font-semibold">David Ferrer Sapiña</span>,
-          desarrollador de aplicaciones multiplataforma con una base sólida en
-          <span className="font-semibold"> Java con Spring Boot y Python con FastApi</span>. Me
-          apasiona diseñar soluciones estructuradas, seguras y fáciles de
-          mantener, aplicando buenas prácticas y arquitectura limpia tanto en
-          backend como en frontend.
+          Soy <span className="font-semibold">David Ferrer Sapiña</span>, desarrollador backend especializado en 
+          <span className="font-semibold"> Java con Spring Boot</span>, con experiencia en 
+          <span className="font-semibold"> Python (FastAPI)</span> y frontend con 
+          <span className="font-semibold"> React</span>.
         </p>
 
         <p className="text-lg leading-relaxed mb-6 dark:text-sky-200">
-          Además de mi experiencia en Java, también trabajo con
-          <span className="font-semibold"> Python</span> para automatización,
-          análisis de datos y desarrollo de APIs ligeras, y con{" "}
-          <span className="font-semibold"> JavaScript</span> en el entorno web,
-          especialmente con
-          <span className="font-semibold"> React</span> y{" "}
-          <span className="font-semibold"> TailwindCSS</span> para construir interfaces modernas y dinámicas. 
-          Esta combinación me permite abordar proyectos de manera integral, comprendiendo la
-          comunicación entre el servidor y el cliente de principio a fin.
+          Me enfoco en diseñar APIs limpias, seguras y escalables utilizando
+          <span className="font-semibold"> arquitectura por capas, DTOs y buenas prácticas</span>.
+          He desarrollado proyectos completos donde gestiono desde la base de datos
+          hasta la interfaz de usuario.
         </p>
 
         <p className="text-lg leading-relaxed mb-6 dark:text-sky-200">
-          He adquirido experiencia práctica creando{" "}
-          <span className="font-semibold">
-            {" "}
-            proyectos reales de forma independiente
-          </span>{" "}
-          antes y durante mis estudios de
-          <span className="font-semibold">
-            {" "}
-            Desarrollo de Aplicaciones Multiplataforma (DAM) y ahora como freelance
-          </span>
-          . He desarrollado aplicaciones completas para uso personal y para
-          terceros, gestionando tanto el backend con{" "}
-          <span className="font-semibold">Spring Boot y FastApi</span> con
-          <span className="font-semibold"> MySQL y PostgreSQL,</span> como el frontend con
-          <span className="font-semibold"> React</span>. Estas experiencias me
-          han permitido comprender el ciclo completo de un proyecto, desde el
-          diseño de la base de datos hasta la interfaz de usuario.
+          Trabajo con tecnologías como 
+          <span className="font-semibold"> Spring Boot, FastAPI, MySQL, PostgreSQL, SQLite, MongoDB y TiDB</span>,
+          además de integrar servicios externos como 
+          <span className="font-semibold"> Firebase</span>.
         </p>
 
         <p className="text-lg leading-relaxed mb-6 dark:text-sky-200">
-          A lo largo de mis proyectos he trabajado con
-          <span className="font-semibold">
-            {" "}
-            bases de datos MySQL, PostgreSQL, SQLite, TiDB y Mongo DB
-          </span>
-          , además de integrar servicios como{" "}
-          <span className="font-semibold"> Firebase</span>
-          para notificaciones o almacenamiento en la nube. Disfruto optimizando
-          el rendimiento y la estructura del código para que las aplicaciones
-          sean rápidas, escalables y fiables.
+          Actualmente estoy centrado en la integración de 
+          <span className="font-semibold"> inteligencia artificial en backend</span>,
+          desarrollando APIs capaces de procesar lenguaje natural y aportar valor real a los usuarios.
         </p>
 
         <p className="text-lg leading-relaxed dark:text-sky-200">
-          Me considero una persona constante, con mentalidad analítica y pasión
-          por el aprendizaje continuo. Mi objetivo es seguir creciendo como
-          desarrollador full stack, combinando mi dominio de{" "}
-          <span className="font-semibold"> Java</span> con el uso práctico de
-          <span className="font-semibold"> Python</span> y{" "}
-          <span className="font-semibold"> JavaScript</span> para crear soluciones eficientes, modernas y bien diseñadas.
+          Busco seguir creciendo como desarrollador backend, aportando soluciones
+          eficientes, bien diseñadas y listas para entornos reales.
         </p>
       </div>
     </motion.section>

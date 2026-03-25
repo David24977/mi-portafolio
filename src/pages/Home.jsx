@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+
 export default function Home() {
   return (
     <motion.div
@@ -10,30 +11,46 @@ export default function Home() {
       <div className="max-w-3xl">
         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight text-white drop-shadow-md dark:text-sky-100">
           Hola, soy{" "}
-          <span className="text-yellow-400 dark:text-yellow-400">
-            David Ferrer Sapiña
-          </span>
+          <span className="text-yellow-400">David Ferrer Sapiña</span>
         </h1>
 
         <h2 className="mt-4 text-lg sm:text-xl text-sky-50 font-medium dark:text-sky-200">
-          Desarrollador de software especializado en{" "}
-          <span className="font-semibold">Java</span>
+          Backend Developer especializado en{" "}
           <span className="font-semibold">
-            , Spring Boot, FastApi y React con JavaScript
+            Java · Spring Boot · APIs REST · Inteligencia Artificial
           </span>
         </h2>
 
-        <p className="max-w-2xl text-sky-50 text-lg leading-relaxed dark:text-sky-300">
-          Me apasiona crear aplicaciones eficientes, estructuradas y fáciles de
-          mantener. Disfruto resolviendo problemas reales a través del código y
-          construyendo soluciones que combinan lógica, rendimiento y diseño.
+        <p className="mt-6 max-w-2xl mx-auto text-sky-50 text-lg leading-relaxed dark:text-sky-300">
+          Desarrollo APIs robustas, escalables y bien estructuradas, aplicando
+          buenas prácticas y arquitectura limpia. Me enfoco en crear soluciones
+          reales que combinan rendimiento, claridad y mantenibilidad.
         </p>
 
-        <p className="mt-6 text-1xl sm:text-2xl font-semibold text-yellow-400 dark:text-yellow-400 drop-shadow-md">
-          Bienvenido a mi portafolio.
+        <p className="mt-4 max-w-2xl mx-auto text-sky-50 text-lg leading-relaxed dark:text-sky-300">
+          Actualmente trabajo integrando modelos de inteligencia artificial en
+          backend para construir aplicaciones más inteligentes y útiles.
         </p>
-        <p className="mt-6 text-sky-50 font-medium dark:text-sky-200">
-          Aquí encontrarás los proyectos que reflejan mi forma de trabajar.
+
+        {/* BOTONES CLAVE */}
+        <div className="mt-8 flex flex-wrap justify-center gap-4">
+          <a
+            href="/proyectos"
+            className="bg-yellow-400 text-slate-900 font-semibold px-6 py-3 rounded-lg hover:bg-yellow-300 transition"
+          >
+            Ver proyectos
+          </a>
+
+          <a
+            href="mailto:davidferrersapinya@gmail.com"
+            className="border border-white text-white px-6 py-3 rounded-lg hover:bg-white hover:text-slate-900 transition"
+          >
+            Contactar
+          </a>
+        </div>
+
+        <p className="mt-8 text-xl font-semibold text-yellow-400 drop-shadow-md">
+          Bienvenido a mi portfolio
         </p>
       </div>
     </motion.div>

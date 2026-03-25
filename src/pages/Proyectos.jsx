@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Fermar from "../assets/Fermar.png";
+
 export default function Proyectos() {
   return (
     <motion.section
@@ -8,115 +9,83 @@ export default function Proyectos() {
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="min-h-[calc(100vh-6rem)] bg-gradient-to-b from-sky-100 via-white to-sky-200 text-slate-800 px-6 py-16 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 dark:text-sky-100"
     >
-      <div className="max-w-5xl mx-auto text-center">
+      <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-3xl sm:text-4xl font-bold text-sky-700 mb-4">
           Mis proyectos
         </h2>
 
-        <p className="text-lg text-slate-700 mb-10 dark:text-sky-100">
-          Aquí puedes ver algunos de mis proyectos más destacados:
+        <p className="text-lg text-slate-700 mb-12 dark:text-sky-100">
+          Proyectos reales enfocados en backend, arquitectura y desarrollo con inteligencia artificial.
         </p>
 
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {/* LonjaApp */}
-          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
-            <div>
-              <h3 className="text-xl font-semibold text-sky-700 mb-2">
-                LonjaApp
-              </h3>
-              <p className="text-slate-700 text-sm leading-relaxed">
-                Gestión de hielo y cajas. <br />
-                <span className="font-medium">Stack:</span> Spring Boot + MySQL
-                + React
-              </p>
-            </div>
-            <a
-              href="https://github.com/David24977/proyectoLonja"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 inline-block bg-sky-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-700 transition"
-            >
-              Ver en GitHub
-            </a>
-          </div>
 
-          {/* Backend Noticias */}
-          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
+          {/* 🧠 AIQuery API (DESTACADO) */}
+          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg hover:-translate-y-1 p-6 transition flex flex-col justify-between border border-purple-200">
             <div>
-              <h3 className="text-xl font-semibold text-sky-700 mb-2">
-                Backend API – Noticias
-              </h3>
-              <p className="text-slate-700 text-sm leading-relaxed">
-                API REST desarrollada para la gestión completa de noticias.
-                Incluye CRUD, persistencia en base de datos y endpoints
-                protegidos para administración. <br />
-                <span className="font-medium">Stack:</span> Java · Spring Boot ·
-                Spring Data JPA · MySQL · DTOs
-              </p>
-            </div>
-            <a
-              href="https://github.com/David24977/DigitalNews"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 inline-block bg-sky-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-700 transition"
-            >
-              Ver backend en GitHub
-            </a>
-          </div>
+              <span className="inline-block text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded mb-2">
+                Proyecto destacado
+              </span>
 
-          {/* Web Noticias */}
-          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
-            <div>
-              <h3 className="text-xl font-semibold text-sky-700 mb-2">
-                Web de Noticias + Panel Admin
+              <h3 className="text-xl font-semibold text-purple-700 mb-2">
+                AIQuery API (LucaResponse)
               </h3>
+
               <p className="text-slate-700 text-sm leading-relaxed">
-                Aplicación web para la visualización pública de noticias y
-                administración de contenido mediante un panel privado accesible
-                desde{" "}
-                <code className="text-xs bg-slate-100 px-1 rounded">
-                  /admin
-                </code>
-                . <br />
-                <span className="font-medium">Stack:</span> React · Vite ·
-                Tailwind · API REST
+                API REST con integración de inteligencia artificial que permite realizar consultas en lenguaje natural.
+                Incluye frontend interactivo tipo chat con generación de respuestas en tiempo real mediante LLM.
               </p>
+
+              <div className="flex flex-wrap gap-2 mt-3 text-xs">
+                <span className="bg-purple-100 px-2 py-1 rounded">Spring Boot</span>
+                <span className="bg-purple-100 px-2 py-1 rounded">Spring AI</span>
+                <span className="bg-purple-100 px-2 py-1 rounded">Groq</span>
+                <span className="bg-purple-100 px-2 py-1 rounded">React</span>
+              </div>
             </div>
-            <div className="mt-6 flex gap-3">
+
+            <div className="mt-6 flex gap-3 flex-wrap">
               <a
-                href="https://cullera-digital.vercel.app/"
+                href="https://lucaresponse.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-sky-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-700 transition"
+                className="inline-block bg-purple-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-purple-700 transition"
               >
-                Ver web
+                Ver demo
               </a>
+
               <a
-                href="https://github.com/David24977/cullera-digital-frontend"
+                href="https://github.com/David24977"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block border border-sky-600 text-sky-700 text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-50 transition"
+                className="inline-block border border-purple-600 text-purple-700 text-sm font-medium px-4 py-2 rounded-lg hover:bg-purple-50 transition"
               >
                 GitHub
               </a>
             </div>
           </div>
 
-          {/* Plataforma Noticias Digitales */}
-          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
+          {/* 📰 Plataforma Noticias (DESTACADO) */}
+          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg hover:-translate-y-1 p-6 transition flex flex-col justify-between border border-emerald-200">
             <div>
-              <h3 className="text-xl font-semibold text-sky-700 mb-2">
-                Plataforma Noticias Digitales (Full Stack)
+              <span className="inline-block text-xs bg-emerald-100 text-emerald-700 px-2 py-1 rounded mb-2">
+                Proyecto destacado
+              </span>
+
+              <h3 className="text-xl font-semibold text-emerald-700 mb-2">
+                Plataforma Noticias Digitales
               </h3>
+
               <p className="text-slate-700 text-sm leading-relaxed">
-                Proyecto full stack que integra una API REST desarrollada en
-                Spring Boot con una aplicación web en React para la
-                visualización de noticias y gestión de contenido mediante un
-                panel de administración. <br />
-                <span className="font-medium">Despliegue:</span> Backend en
-                Render (plan free) y frontend en Vercel. El primer acceso puede
-                tardar 1–2 minutos debido al arranque en frío del servidor.
+                Aplicación full stack con backend en Spring Boot y frontend en React para la gestión y visualización de noticias.
+                Incluye panel de administración y despliegue en producción.
               </p>
+
+              <div className="flex flex-wrap gap-2 mt-3 text-xs">
+                <span className="bg-emerald-100 px-2 py-1 rounded">Spring Boot</span>
+                <span className="bg-emerald-100 px-2 py-1 rounded">React</span>
+                <span className="bg-emerald-100 px-2 py-1 rounded">MySQL</span>
+              </div>
             </div>
 
             <div className="mt-6 flex gap-3 flex-wrap">
@@ -124,155 +93,142 @@ export default function Proyectos() {
                 href="https://cullera-digital.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-emerald-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-emerald-700 transition"
+                className="bg-emerald-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-emerald-700 transition"
               >
-                Ver demo completa
+                Ver demo
               </a>
 
               <a
                 href="https://github.com/David24977/cullera-digital-backend"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block border border-sky-600 text-sky-700 text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-50 transition"
+                className="border border-emerald-600 text-emerald-700 text-sm font-medium px-4 py-2 rounded-lg hover:bg-emerald-50 transition"
               >
-                Backend GitHub
+                Backend
               </a>
 
               <a
                 href="https://github.com/David24977/cullera-digital-frontend"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block border border-sky-600 text-sky-700 text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-50 transition"
+                className="border border-emerald-600 text-emerald-700 text-sm font-medium px-4 py-2 rounded-lg hover:bg-emerald-50 transition"
               >
-                Frontend GitHub
+                Frontend
               </a>
             </div>
           </div>
 
-           {/* FastApi Product */}
-          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
+          {/* 🐍 FastAPI AI */}
+          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg hover:-translate-y-1 p-6 transition flex flex-col justify-between">
             <div>
               <h3 className="text-xl font-semibold text-sky-700 mb-2">
-                FastApi Product Microservice with AI Analysis
+                FastAPI Product AI Microservice
               </h3>
+
               <p className="text-slate-700 text-sm leading-relaxed">
-                Backend project developed to demonstrate modern Python backend development with AI integration. <br />
-                <span className="font-medium">Stack:</span> FastApi, PostgreSQL, SQLAlchemy, Pydantic, httpx, Groq LLM API
+                Microservicio backend en Python con análisis de productos mediante inteligencia artificial.
+                Arquitectura por capas con SQLAlchemy y consumo de LLM.
               </p>
+
+              <div className="flex flex-wrap gap-2 mt-3 text-xs">
+                <span className="bg-sky-100 px-2 py-1 rounded">FastAPI</span>
+                <span className="bg-sky-100 px-2 py-1 rounded">PostgreSQL</span>
+                <span className="bg-sky-100 px-2 py-1 rounded">SQLAlchemy</span>
+                <span className="bg-sky-100 px-2 py-1 rounded">AI</span>
+              </div>
             </div>
+
             <a
-              href={"https://github.com/David24977/Product_FastApi"}
+              href="https://github.com/David24977/Product_FastApi"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-block bg-sky-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-700 transition"
+            >
+              Ver en GitHub
+            </a>
+          </div>
+
+          {/* LonjaApp */}
+          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg hover:-translate-y-1 p-6 transition flex flex-col justify-between">
+            <div>
+              <h3 className="text-xl font-semibold text-sky-700 mb-2">
+                LonjaApp
+              </h3>
+              <p className="text-slate-700 text-sm">
+                Gestión de hielo y cajas con backend en Spring Boot y frontend en React.
+              </p>
+            </div>
+
+            <a
+              href="https://github.com/David24977/proyectoLonja"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-block bg-sky-600 text-white text-sm px-4 py-2 rounded-lg hover:bg-sky-700 transition"
             >
               Ver en GitHub
             </a>
           </div>
 
           {/* FallaApp */}
-          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
+          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg hover:-translate-y-1 p-6 transition flex flex-col justify-between">
             <div>
               <h3 className="text-xl font-semibold text-sky-700 mb-2">
                 FallaApp
               </h3>
-              <p className="text-slate-700 text-sm leading-relaxed">
-                Aplicación de gestión de falleros y cuotas. <br />
-                <span className="font-medium">Stack:</span> JavaFX + SQLite
+              <p className="text-slate-700 text-sm">
+                Aplicación de escritorio para gestión de falleros y cuotas.
               </p>
             </div>
+
             <a
-              href={"https://github.com/David24977/FallaApp"}
+              href="https://github.com/David24977/FallaApp"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-block bg-sky-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-700 transition"
+              className="mt-6 inline-block bg-sky-600 text-white text-sm px-4 py-2 rounded-lg hover:bg-sky-700 transition"
             >
               Ver en GitHub
             </a>
           </div>
 
-          {/* Notificaciones Push */}
-          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
-            <div>
-              <h3 className="text-xl font-semibold text-sky-700 mb-2">
-                Notificaciones Push
-              </h3>
-              <p className="text-slate-700 text-sm leading-relaxed">
-                Backend con envío de notificaciones a Firebase. <br />
-                <span className="font-medium">Stack:</span> Spring Boot y
-                Android Studio con Kotlin
-              </p>
-            </div>
-            <a
-              href="https://github.com/David24977/notificaciones-push-spring"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 inline-block bg-sky-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-700 transition"
-            >
-              Ver en GitHub
-            </a>
-          </div>
-
-          {/* Facturación de Productos */}
-          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
-            <div>
-              <h3 className="text-xl font-semibold text-sky-700 mb-2">
-                Facturación de Productos
-              </h3>
-              <p className="text-slate-700 text-sm leading-relaxed">
-                API REST para gestión de clientes, productos y facturas, con
-                cálculo de IVA y búsquedas por fechas. <br />
-                <span className="font-medium">Stack:</span> Spring Boot · JPA ·
-                MySQL · DTOs
-              </p>
-            </div>
-            <a
-              href="https://github.com/David24977/facturacion-producto"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 inline-block bg-sky-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-700 transition"
-            >
-              Ver en GitHub
-            </a>
-          </div>
-
-          {/* Web FerMar */}
-          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg p-6 transition flex flex-col justify-between">
+          {/* FerMar */}
+          <div className="bg-white/70 backdrop-blur rounded-xl shadow-md hover:shadow-lg hover:-translate-y-1 p-6 transition flex flex-col justify-between">
             <div>
               <img
                 src={Fermar}
-                alt="Logo Construcciones FerMar"
-                className="w-full h-40 object-contain rounded-md mb-4 bg-white/70 backdrop-blur"
+                alt="FerMar"
+                className="w-full h-40 object-contain mb-4"
               />
 
               <h3 className="text-xl font-semibold text-sky-700 mb-2">
                 Construcciones FerMar
               </h3>
-              <p className="text-slate-700 text-sm leading-relaxed">
-                Sitio web profesional para una empresa de construcción local.
-                Incluye galería con carrusel, integración con Vercel y diseño
-                responsive moderno.
+
+              <p className="text-slate-700 text-sm">
+                Web profesional responsive con galería y despliegue en Vercel.
               </p>
             </div>
+
             <div className="mt-6 flex gap-3 justify-center">
               <a
                 href="https://construcciones-fermar.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-yellow-400 text-slate-900 text-sm font-medium px-4 py-2 rounded-lg hover:bg-yellow-300 transition"
+                className="bg-yellow-400 text-slate-900 text-sm px-4 py-2 rounded-lg hover:bg-yellow-300 transition"
               >
                 Ver web
               </a>
+
               <a
                 href="https://github.com/David24977/construcciones-fermar"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-sky-600 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-sky-700 transition"
+                className="bg-sky-600 text-white text-sm px-4 py-2 rounded-lg hover:bg-sky-700 transition"
               >
-                Ver en Github
+                GitHub
               </a>
             </div>
           </div>
+
         </div>
       </div>
     </motion.section>
