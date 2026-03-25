@@ -35,7 +35,7 @@ export default function Home() {
         {/* BOTONES CLAVE */}
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <a
-            href="/proyectos"
+            href="https://davidferrer.vercel.app/proyectos"
             className="bg-yellow-400 text-slate-900 font-semibold px-6 py-3 rounded-lg hover:bg-yellow-300 transition"
           >
             Ver proyectos
